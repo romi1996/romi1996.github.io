@@ -1,35 +1,15 @@
-Package: applist
-Version: 1.5.14
-Architecture: iphoneos-arm
-Maintainer: Ryan Petrich <rpetrich@gmail.com>
-Installed-Size: 600
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
-Conflicts: com.a3tweaks.polus (<< 2.0.7)
-Filename: ./debs/applist_1.5.14.deb
-Size: 93138
-MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
-SHA1: d7883ca1eb96611d9856f17c3510872decfce0eb
-SHA256: 81ad24dd58694e8b6b72706b108f75a51d8eb049c856975e9fc86b1976a25b1e
-Section: System
-Description: Allow extensions to read the list of installed apps
-Author: Ryan Petrich <rpetrich@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-Dev: rpetrich
-Name: AppList
-Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
-
 Package: com.yourepo.kiiimo.littlex
 Version: 1.3.7
 Architecture: iphoneos-arm
+Maintainer: Tor
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.yourepo.kiiimo.littlex_1.3.7.deb
-Size: 38246
-MD5sum: d778579d7eb0563a78bdd8d6b6686d7c
-SHA1: d17ea39a72763c258bcbfeb57d447ad419563ac1
-SHA256: 26579ec2f4bd389923daa7dedc73c6915a50da20775f3c5d63c3ae592ce5f25f
-Section: Supports iOS 11
+Filename: ./LittleX.deb
+Size: 56508
+MD5sum: 2a3cd9588587f18594a5f8b94622a0a8
+SHA1: 91b4e69b843e66a9b7d9170a1b4a2e17c1a6db2a
+SHA256: e762250e8d283dd0e4b8a88e8d335a5a86925f8d7e5fb774b88ce9890a0eee62
+Section: System
 Description: iPhoneX Features for Non-X Devices on iOS 11
 Author: iOS Creatix
-Depiction: http://cydia.kiiimo.org/pack/littlex
 Name: LittleX
 
