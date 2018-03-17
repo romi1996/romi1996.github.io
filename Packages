@@ -3,7 +3,7 @@ Version: 1.3.7
 Architecture: iphoneos-arm
 Maintainer: Tor
 Depends: mobilesubstrate, preferenceloader
-Filename: debs//LittleX.deb
+Filename: ./debs/LittleX.deb
 Size: 27800
 MD5sum: c3089bb7079c6254217edd80b7149d28
 SHA1: 821e814e10c36eada17609a9a64846d7aae3b6d6
