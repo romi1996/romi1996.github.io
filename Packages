@@ -1,13 +1,28 @@
-Package: com.yourepo.kiiimo.littlex
+Package: com.littlex
+Version: 1.3.7
+Architecture: iphoneos-arm
+Maintainer: iOS Creatix
+Depends: mobilesubstrate, preferenceloader
+Filename: ./..deb
+Size: 28394
+MD5sum: 97574cf7336c3742e47648bbb5b19eab
+SHA1: 582a3408631f19145d78e538d63b14cd1e0cf74f
+SHA256: 042c53b4f21ce80baa02301dd1da68e8e160187e108a0dede3d893c0c84e8a3f
+Section: System
+Description: iPhoneX Features for Non-X Devices on iOS 11
+Author: iOS Creatix
+Name: LittleX
+
+Package: com.littlex
 Version: 1.3.7
 Architecture: iphoneos-arm
 Maintainer: Tor
 Depends: mobilesubstrate, preferenceloader
 Filename: ./LittleX.deb
-Size: 56508
-MD5sum: 2a3cd9588587f18594a5f8b94622a0a8
-SHA1: 91b4e69b843e66a9b7d9170a1b4a2e17c1a6db2a
-SHA256: e762250e8d283dd0e4b8a88e8d335a5a86925f8d7e5fb774b88ce9890a0eee62
+Size: 27800
+MD5sum: c3089bb7079c6254217edd80b7149d28
+SHA1: 821e814e10c36eada17609a9a64846d7aae3b6d6
+SHA256: 4613b19dbdff788508cdcf4921001506739aa03096c065822ac26a1169ce6566
 Section: System
 Description: iPhoneX Features for Non-X Devices on iOS 11
 Author: iOS Creatix
