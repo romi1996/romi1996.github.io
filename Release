@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Components: main
 Description: tor's Tweaks
 MD5Sum:
- 2dd744c1b5e09e4328f55f1dbf8191ee 449 Packages
- bb5d0b7f31a5e594b1878eb60cc288dc 370 Packages.bz2
+ 542ec770097c05278fbeb53e77859117 448 Packages
+ fa4733b6766ac73ac24eac4971bb5bb5 371 Packages.bz2
