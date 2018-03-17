@@ -1,0 +1,15 @@
+Package: com.yourepo.kiiimo.littlex
+Version: 1.3.7
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.yourepo.kiiimo.littlex_1.3.7.deb
+Size: 38246
+MD5sum: d778579d7eb0563a78bdd8d6b6686d7c
+SHA1: d17ea39a72763c258bcbfeb57d447ad419563ac1
+SHA256: 26579ec2f4bd389923daa7dedc73c6915a50da20775f3c5d63c3ae592ce5f25f
+Section: Supports iOS 11
+Description: iPhoneX Features for Non-X Devices on iOS 11
+Author: iOS Creatix
+Depiction: http://cydia.kiiimo.org/pack/littlex
+Name: LittleX
+

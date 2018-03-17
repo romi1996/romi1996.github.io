@@ -1,0 +1,11 @@
+Origin: tor's Repo
+Label: tor
+Suite: stable
+Version: 1.0
+Codename: tor
+Architecture: iphoneos-arm
+Components: main
+Description: tor's Tweaks
+MD5Sum:
+ 40a8669322f95d3928d631e4183bbcb7 514 Packages
+ c8cc9e700aa507a4bf4e2cfa9beca080 406 Packages.bz2
