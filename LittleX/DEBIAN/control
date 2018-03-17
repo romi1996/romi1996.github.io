@@ -1,0 +1,10 @@
+Package: com.yourepo.kiiimo.littlex
+Name: LittleX
+Version: 1.3.7
+Architecture: iphoneos-arm
+Maintainer: Tor
+Description: iPhoneX Features for Non-X Devices on iOS 11
+Author: iOS Creatix
+Section: System
+Depends: mobilesubstrate, preferenceloader
+
