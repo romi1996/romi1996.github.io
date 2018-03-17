@@ -1,3 +1,23 @@
+Package: applist
+Version: 1.5.14
+Architecture: iphoneos-arm
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Installed-Size: 600
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.6~beta) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Filename: ./debs/applist_1.5.14.deb
+Size: 93138
+MD5sum: cd8cc24cb82a6714a6a1a41424d72e22
+SHA1: d7883ca1eb96611d9856f17c3510872decfce0eb
+SHA256: 81ad24dd58694e8b6b72706b108f75a51d8eb049c856975e9fc86b1976a25b1e
+Section: System
+Description: Allow extensions to read the list of installed apps
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Dev: rpetrich
+Name: AppList
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+
 Package: com.yourepo.kiiimo.littlex
 Version: 1.3.7
 Architecture: iphoneos-arm
