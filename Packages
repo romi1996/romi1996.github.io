@@ -1,21 +1,6 @@
 Package: com.littlex
 Version: 1.3.7
 Architecture: iphoneos-arm
-Maintainer: iOS Creatix
-Depends: mobilesubstrate, preferenceloader
-Filename: ./..deb
-Size: 28394
-MD5sum: 97574cf7336c3742e47648bbb5b19eab
-SHA1: 582a3408631f19145d78e538d63b14cd1e0cf74f
-SHA256: 042c53b4f21ce80baa02301dd1da68e8e160187e108a0dede3d893c0c84e8a3f
-Section: System
-Description: iPhoneX Features for Non-X Devices on iOS 11
-Author: iOS Creatix
-Name: LittleX
-
-Package: com.littlex
-Version: 1.3.7
-Architecture: iphoneos-arm
 Maintainer: Tor
 Depends: mobilesubstrate, preferenceloader
 Filename: ./LittleX.deb
@@ -27,4 +12,3 @@ Section: System
 Description: iPhoneX Features for Non-X Devices on iOS 11
 Author: iOS Creatix
 Name: LittleX
-
