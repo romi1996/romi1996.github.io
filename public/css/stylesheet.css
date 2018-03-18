@@ -2,8 +2,7 @@ body{
     background: #dadae3;
     font-family: 'Roboto', sans-serif;
     padding: 0;
-    background-image: url('../../bgimage.jpg');
-    background-size: cover;
+    background: linear-gradient(to bottom right, rgb(255, 56, 56), rgb(255, 157, 118), rgb(255, 56, 56));
     color: white;
 }
 
@@ -15,25 +14,32 @@ footer{
     justify-self: center;
     align-self: center;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content auto min-content;
-    grid-gap: 1vh;
-    height: 100%;
-    width: 100%;
+    grid-template-rows: min-content max-content;
+    grid-gap: 0;
     padding: 0;
+    margin: 0;
+    height: 97vh;
+    width: 100%;
 }
 
 .title{
     height: min-content;
+    padding: 0;
+    margin: 0;
 }
 
 .content{
     width: 100%;
     text-align: center;
+    padding: 0;
+    margin: 0;
 }
 
 a{
