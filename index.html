@@ -33,9 +33,6 @@
 			</div>
 		</div>
 		<footer>
-			<hr>
-			<h4>These are the packages on this repo</h4>
-			<div id="samples" style="width:100%"></div>
 			<script type="text/javascript">
 				//Some fast iOS check.
 				is_ios = (navigator.userAgent.match(/iPad/i) != null) || (navigator.userAgent.match(/iPhone/i) != null) || (navigator.userAgent.match(/iPod/i) != null);
@@ -143,17 +140,6 @@
 	
 					for (key in depictionArray) {
 						var pack = depictionArray[key];
-	
-						//The following code is very messy. You have been warned.
-						document.getElementById('samples').innerHTML = document.getElementById('samples').innerHTML +
-							'<a href="javascript:var e = document.getElementById(\'u_' + pack.Package + '\'); e.style.display = e.style.display= (e.style.display == \'block\' ? \'none\' : \'block\');">' +
-							pack.Name + ' (' + pack.Version + ')</a><br>' +
-							'<div id="u_' + pack.Package + '" style="display:none;">' +
-							'&nbsp;&nbsp;' + pack.Description + '<br>' +
-							(is_ios ? '&nbsp;&nbsp;<a href="' +  'cydia://url/https://cydia.saurik.com/api/share#?source=http://h6nry.github.io/repo/&package=' + pack.Package + '" target="_blank">Show in Cydia.</a><br>' : '') +
-							'&nbsp;&nbsp;<a href="' + pack.Depiction + '" target="_blank">Show more info.</a><br>' +
-							'&nbsp;&nbsp;<a href="' + pack.Filename + '" target="_blank">Download the .deb package.</a><br><br>' +
-							'</div>';
 					}
 				};
 	
