@@ -13,3 +13,19 @@ Description: iPhoneX Features for Non-X Devices on iOS 11
 Author: iOS Creatix
 Name: LittleX
 
+Package: com.repo.xarold.com.tsssaver
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Xarold <contact@xarold.com>
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Filename: ./tsssaver_1.2.0.deb
+Size: 152016
+MD5sum: a402821326c641b48e12d24814706b93
+SHA1: 0be4868c3af903949204e706b5bbaf2137401aa5
+SHA256: 84442b73d0036f3f7f74648f8473dd543690ca365a649ddeb5d0eb63a3685f09
+Section: Utilities
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Author: Jamie Bishop
+Depiction: http://repo.xarold.com/depiction.php?id=tsssaver
+Name: TSS Saver
+
