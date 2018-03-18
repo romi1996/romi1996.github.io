@@ -1,0 +1,101 @@
+body{
+    background: #dadae3;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    background-image: url('../../bgimage.jpg');
+    background-size: cover;
+    color: white;
+}
+
+footer{
+    color: darkslategrey
+}
+
+.wrapper >*{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content auto min-content;
+    grid-gap: 1vh;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.title{
+    height: min-content;
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+.btn-fullspan{
+    width: 100%;
+}
+
+.btn-bluesky{
+    display: block;
+    padding: 1em;
+    font-size: 1.5em;
+    height: max-content;
+    width: max-content;
+    color: white;
+    background: #00C6C2;
+    border: 1px solid #00C6C2;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.btn-bluesky:hover{
+    color: white;
+    background: rgb(0, 136, 134);
+    border: 1px solid rgb(0, 136, 134);
+}
+
+.btn-green{
+    display: block;
+    padding: 1em;
+    font-size: 1.5em;
+    height: max-content;
+    width: max-content;
+    color: lime;
+    background: transparent;
+    border: 1px solid lime;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.btn-green:hover{
+    color: white;
+    background: lime;
+}
+
+.error-message{
+    color: crimson;
+    margin: auto;
+    width: max-content;
+}
+
+.mainbtn{
+    display: block;
+    text-align: center;
+    background: transparent;
+    padding: 1vh 0;
+}
+
+.mainbtn >* {
+    margin: 10px auto;
+    text-align: center;
+}
