@@ -18,11 +18,11 @@ Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: Xarold <contact@xarold.com>
 Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
-Filename: ./tsssaver_1.2.0.deb
-Size: 152016
-MD5sum: a402821326c641b48e12d24814706b93
-SHA1: 0be4868c3af903949204e706b5bbaf2137401aa5
-SHA256: 84442b73d0036f3f7f74648f8473dd543690ca365a649ddeb5d0eb63a3685f09
+Filename: ./tsssaver.deb
+Size: 152024
+MD5sum: fbd589e477a960ed25f4891a927253a7
+SHA1: b9b8bf952495cfcf11fc927cc5bd2c35b668aec7
+SHA256: 2a03eb2e05cd85a840626e31ddd1e311cb86ec79540e68cf062726d4d6850518
 Section: Utilities
 Description: A one-click tool to save blobs using TSSsaver.1conan.com
 Author: Jamie Bishop
